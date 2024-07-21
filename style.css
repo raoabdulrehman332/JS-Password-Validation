@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+.wall{
+    width: 450px;
+    padding: 28px;
+    border-radius: 7px;
+}
+.input-field {
+    height: 65px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.input-field input{
+    width: 100%;
+    height: 100%;
+    padding: 0 17px;
+    border-radius: 7px;
+    border: 1px solid #999;
+    outline: none;
+    font-size: 1.3em;  
+}
+
+.input-field i{
+    right: 18px;
+    position: absolute;
+    top: 25px;
+    cursor: pointer;
+    color: #999;
+}
+
+.wall .password-validation{
+    margin: 20px 0 10px;
+}
+
+.password-validation p{
+    font-size: 1.2em;
+}
+
+.password-validation ul li{
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.password-validation ul li i{
+    color: #999;
+    font-size: 0.6em;
+    width: 20px;
+}
+.password-validation ul li span{
+    margin-left: 12px;
+}
+
+.submit{
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+}
+#btn{
+    padding: 10px 60px;
+    border: none;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.3em;
+    border-radius: 40px;
+}
+

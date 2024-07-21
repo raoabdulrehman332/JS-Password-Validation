@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex justify-content-center align-items-center  bg-primary">
+    <div class="wall bg-light border border-4">
+        <h3><label for="Password">Password:</label></h3>
+        <div class="input-field ">
+            <input type="password" id="Password" placeholder="Enter Password">
+            <i class="fa fa-eye-slash"></i>
+        </div>
+        <div class="password-validation">
+            <p>Password must contains</p>
+            <ul class="requirment-list list-unstyled">
+                <li class="list-item">
+                    <i class="fa-solid fa-circle" id="one"></i>
+                    <span>At least 8 characters length</span>
+                </li> 
+                <li class="list-item">
+                    <i class="fa-solid fa-circle" id="two"></i>
+                    <span>At least 1 Number (0...9)</span>
+                </li> 
+                <li class="list-item">
+                    <i class="fa-solid fa-circle" id="three"></i>
+                    <span>At least 1 special symbol (!...$)</span>
+                </li>
+                <li class="list-item">
+                    <i class="fa-solid fa-circle" id="four"></i>
+                    <span>At least 1 lowercase (a...z)</span>
+                </li> 
+                <li class="list-item">
+                    <i class="fa-solid fa-circle" id="five"></i>
+                    <span>At least 1 Uppercase (A...Z)</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="submit d-flex align-items-center justify-content-center">
+         <button type="submit" id="btn"  class="bg-info badge text-dark">Submit</button>
+        </div>
+    </div>
+
+
+
+
+     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
