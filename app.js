@@ -85,6 +85,7 @@ passwordInput.addEventListener('keyup',() => {
      if(one.className == `fa fa-check text-success fw-bolder fs-5` && two.className == `fa fa-check text-success fw-bolder fs-5` && three.className == `fa fa-check text-success fw-bolder fs-5` && four.className == `fa fa-check text-success fw-bolder fs-5` && five.className == `fa fa-check text-success fw-bolder fs-5`){
 
         alert('Done')
+        location.reload();
      }else{
         alert('Enter valid password')
      }
